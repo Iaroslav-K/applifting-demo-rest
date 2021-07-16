@@ -179,3 +179,5 @@ Temporary Items
 # End of https://www.toptal.com/developers/gitignore/api/java,kotlin,macos,intellij+all,git
 
 .docker
+.gradle
+build
