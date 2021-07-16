@@ -10,7 +10,7 @@ run `./gradle build`
 
 ## API configuration
 
-paths:
+### paths:
 
 - GET `"/"` - liveness probe (you don't need access-toke)
 - GET `/api/v1/monitoring-results` (based on access-token)
@@ -35,3 +35,9 @@ paths:
       "dateOfCreation": null,
       "dateOfLastCheck": null,
       "monitoredInterval": 10 }`
+      
+### access token
+
+Add required access token as a header variable. Example: `"Authentication": 93f39e2f-80de-4033-99ee-249d92736a25`
+
+I used an Insomnia.
